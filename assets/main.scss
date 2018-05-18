@@ -1,0 +1,52 @@
+---
+---
+@import "minima";
+
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color:lightgrey;
+	background: black;
+
+}
+
+.site-header{
+	background: #000;
+}
+.site-nav .page-link { 
+	color: lightgray;
+
+}
+
+.site-title:visited {
+	color: lightgrey;
+} 
+
+
+.site-title {
+	font-weight: 400;
+	font-size: 30px;
+  font-weight: normal;
+  text-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+
+.post-link {
+	color: lightgray;
+
+}
+
+
+
+a {
+	color: lightgray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
