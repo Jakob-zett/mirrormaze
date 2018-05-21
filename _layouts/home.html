@@ -8,10 +8,19 @@ layout: default
 
   {%- endif -%}
 
+  <h2 class="post-list-heading">What is this?</h2>
+  
+   <div class="post-content e-content" itemprop="articleBody">
+    <p>Mirror Maze is a project aiming to collect ... </p>
+    <p> Almost every week I find something in the news and have to think of black mirror </p>
+    <p>This is a community project, which means we needs your hints!<br>
+    <p> Everytime you stumble across news and inventions which remind you of a black mirror episode. Give us a hint & send us the link </p>
+  </div>
+
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Episodes" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Episodes:" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>

@@ -7,6 +7,11 @@
 	font-weight: bold;
 	color:lightgrey;
 	background: black;
+	background: url('/images/background.jpg') no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -25,7 +30,7 @@
 
 .site-title {
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 25px;
   font-weight: normal;
   text-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 }
@@ -49,4 +54,7 @@ a:visited {
 a:hover {
 	color: gray;
 	text-decoration: none;
+}
+h1.post-title {
+	font-size: 30px;
 }
