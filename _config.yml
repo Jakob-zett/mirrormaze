@@ -16,8 +16,7 @@
 title: MIRRORMAZE
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- This is a project to keep track of how far we are into the shit.
- by Julian Zett
+ Looking in the Black Mirror.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: julian_zett

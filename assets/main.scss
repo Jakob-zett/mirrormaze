@@ -4,8 +4,7 @@
 
 * {
 	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-	color:lightgrey;
+	color:white;
 	background: black;
 	background: url('/images/background.jpg') no-repeat center fixed; 
   -webkit-background-size: cover;
@@ -13,48 +12,90 @@
   -o-background-size: cover;
   background-size: cover;
 
+
 }
 
 .site-header{
-	background: #000;
+	background: rgba(0,0,0,0);
+
 }
+
+
+
 .site-nav .page-link { 
-	color: lightgray;
+	color: white;
 
 }
 
 .site-title:visited {
-	color: lightgrey;
+	color: white;
 } 
 
 
 .site-title {
-	font-weight: 400;
+    font-weight: 400;
 	font-size: 25px;
   font-weight: normal;
-  text-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  text-shadow: 0px 0px 80px rgba(255,255,255,0.8);
+  letter-spacing: 4px;
 }
 
 
 .post-link {
-	color: lightgray;
+	background: rgba(10,10,10, 0.9);
+	color: white;
+	border-radius: 2px;
+	margin: 0px;
+	transition: 0.2s;
+	font-weight: bold;
+	padding-left: 10px;
 
+}
+.post-link:hover {
+	background: rgba(255,255,255, 0.9);
 }
 
 
 
 a {
-	color: lightgray;
+	color: #F87930;
 }
-
+.username {
+	color: #F87930;
+}
+.u-email {
+	background: rgba(255,255,255,0.9);
+}
 a:visited {
-	color: gray;
+	color: white;
 }
 
 a:hover {
-	color: gray;
+	color: black;
 	text-decoration: none;
 }
 h1.post-title {
 	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background: rgba(255,255,255, 0.9); 
 }
+
+p{
+	background: rgba(255,255,255, 0.9);
+	color: black;
+	padding: 20px;
+	border-radius: 2px;
+
+}
+
+.post-list-heading {
+	background: rgba(255,255,255, 0.9);
+	color: black;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+
+}
+
